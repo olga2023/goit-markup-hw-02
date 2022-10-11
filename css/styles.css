@@ -1,0 +1,277 @@
+:root {
+    --color-primary: #757575;
+    --color-brand: #2196f3;
+    --color-accent: #212121;
+    --color-active: #188CE8;
+    --color-secondary-section: #f5f5f5; 
+    --color-section: #2f303a;
+    --color-container: #eeeeee;
+    --color-background: #ffffff;
+}
+
+body {
+    color: var(--color-primary);
+    font-size: 14px;
+    font-family: "Roboto", sans-serif;
+    font-weight: 400;
+    background-color: var(--color-background)
+}
+
+/* logo */
+
+.logo-text {
+    color: var(--color-brand);
+    line-height: 1.15;
+    font-weight: 700;
+}
+
+.logo-second {
+    color: #000000;
+    line-height: 1.15;
+    font-weight: 700;
+}
+
+.logo-second-footer {
+    color: var(--color-background);
+    line-height: 1.15;
+    font-weight: 700;
+}
+
+ /*secton link*/
+
+.link-logo {
+    text-decoration: none;
+    line-height: 1.38;
+    font-family: Raleway;
+    font-weight: 700;
+}
+
+.link-logo:hover {
+    text-decoration: underline;
+}
+
+.link-nav {
+    color: var(--color-primary);
+    text-decoration: none;
+    line-height: 1.14;
+    font-weight: 500;
+}
+
+.link-nav:hover {
+    color: var(--color-brand);
+    font-weight: 500;
+}
+
+.link-nav:active {
+    color: var(--color-active);
+    font-weight: 500;
+}
+
+.link-nav:focus {
+    color: var(--color-active);
+    font-weight: 500;
+}
+
+.link-logo:hover {
+    text-decoration: underline;
+}
+
+.link-contakt {
+    color: var(--color-primary);
+    text-decoration: none;
+    line-height: 1.17;
+    font-weight: 500;
+}
+
+.link-contakt:hover {
+    color: var(--color-brand);
+}
+
+.link-contakt:focus {
+    color: var(--color-active);
+}
+
+.link-contakt:active {
+    color: var(--color-active);
+}
+
+.link-footer {
+    text-decoration: none;
+    line-height: 1.17;
+    font-family: Raleway;
+}
+
+
+.link-address {
+    color: var(--color-background);
+    text-decoration: none;
+    line-height: 1.14;
+    font-style: normal;
+}
+
+.link-address:hover {
+    color: var(--color-brand);
+}
+
+.link-address:focus {
+    color: var(--color-active);
+}
+
+..link-address:active {
+    color: var(--color-active);
+}
+
+/* base section*/
+
+.primary-section {
+    background: var(--color-section);
+}
+
+.porfolio-general {
+    background-color: #F5F4FA;
+}
+
+.section-footer {
+    background: var(--color-section);
+}
+
+.container-portfolio {
+    background-color: var(--color-container);
+}
+
+.secondary-section {
+    background-color: var(--color-section);
+}
+
+.section-third {
+    background-color: #F5F4FA;
+}
+
+.team-card {
+    background-color: var(--color-background);
+}
+
+/*section-text*/
+
+.hero-title {
+    color: #fff;
+    text-transform: uppercase;
+    line-height: 1.36;
+    font-weight: 900;
+}
+
+.section-sabtitle {
+    color: var(--color-accent);
+    line-height: 1.14;
+    font-weight: 700;
+}
+
+.title-text {
+    color: var(--color-accent);
+    line-height: 2;
+    font-weight: 700;
+}
+
+.text-rede {
+    line-height: 1.7;
+}
+
+.section-caption {
+    color: var(--color-accent);
+    line-height: 1.17;
+    font-weight: 700;
+}
+
+.section-subject {
+    color: var(--color-accent);
+    line-height: 1.17;
+    font-weight: 500;
+}
+
+.text-desc {
+    line-height: 1.17;
+}
+
+.title-description {
+    line-height: 1.88;
+}
+
+/* section-button*/
+
+.primery-button {
+   color: var(--color-background);
+   background-color: var(--color-brand);
+   font-weight: 700;
+   border: 0;
+}
+
+.primery-button:hover {
+    color: #fff;
+    background-color: var(--color-brand);
+    cursor: pointer;
+}
+
+.primery-button:active {
+    color: #fff;
+    background-color: var(--color-active);
+} 
+
+.secondary-button {
+    color: var(--color-accent);
+    background-color: var(--color-secondary-section);
+}
+
+.secondary-button:hover {
+    color: var(--color-background);
+    background-color: var(--color-brand);
+    cursor: pointer;
+}
+.secondary-button:active {
+    color: var(--color-background);
+    background-color: var(--color-active);
+}
+
+.secondary-button-first {
+    color: var(--color-background);
+    background-color: var(--color-brand);
+    font-weight: 500;
+}
+
+.secondary-button-first:hover {
+    color: var(--color-background);
+    background-color: var(--color-brand);
+    cursor: pointer;
+    font-weight: 500;
+}
+
+.secondary-button-first:active {
+    color: var(--color-background);
+    background-color: var(--color-active);
+    font-weight: 500;
+}
+
+
+.visually-hidden {
+    position: absolute;
+    white-space: nowrap;
+    width: 1px;
+    height: 1px;
+    overflow: hidden;
+    border: 0;
+    padding: 0;
+    clip: rect(0 0 0 0);
+    clip-path: inset(50%);
+    margin: -1px;
+}
+
+ /* list*/ 
+
+.general-list {
+    list-style: none;
+}
+
+
+
+
+
+
