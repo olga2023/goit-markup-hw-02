@@ -46,12 +46,8 @@ body {
     font-weight: 700;
 }
 
-.link-logo:hover {
-    text-decoration: underline;
-}
-
 .link-nav {
-    color: var(--color-primary);
+    color: var(--color-accent)
     text-decoration: none;
     line-height: 1.14;
     font-weight: 500;
@@ -59,6 +55,7 @@ body {
 
 .link-nav:hover {
     color: var(--color-brand);
+    border-radius: 4px;
     font-weight: 500;
 }
 
@@ -127,20 +124,12 @@ body {
     background: var(--color-section);
 }
 
-.porfolio-general {
-    background-color: #F5F4FA;
-}
-
 .section-footer {
     background: var(--color-section);
 }
 
-.container-portfolio {
-    background-color: var(--color-container);
-}
-
-.secondary-section {
-    background-color: var(--color-section);
+.secondary-group {
+    background-color: var(--color-secondary-section)
 }
 
 .section-third {
@@ -158,42 +147,53 @@ body {
     text-transform: uppercase;
     line-height: 1.36;
     font-weight: 900;
+    letter-spacing: 0.06em;
 }
 
 .section-sabtitle {
     color: var(--color-accent);
     line-height: 1.14;
     font-weight: 700;
+    letter-spacing: 0.03em;
+}
+
+.text-rede {
+    line-height: 1.7;
+    font-weight: 400;
+   letter-spacing: 0.03em;
 }
 
 .title-text {
     color: var(--color-accent);
     line-height: 2;
     font-weight: 700;
-}
-
-.text-rede {
-    line-height: 1.7;
+    letter-spacing: 0.06em;
 }
 
 .section-caption {
     color: var(--color-accent);
     line-height: 1.17;
     font-weight: 700;
+    letter-spacing: 0.03em;
 }
 
 .section-subject {
     color: var(--color-accent);
     line-height: 1.17;
     font-weight: 500;
+    letter-spacing: 0.03em;
 }
 
 .text-desc {
     line-height: 1.17;
+    font-weight: 400;
+    letter-spacing: 0.03em;
 }
 
 .title-description {
     line-height: 1.88;
+    font-weight: 400;
+    letter-spacing: 0.03em;
 }
 
 /* section-button*/
@@ -203,6 +203,7 @@ body {
    background-color: var(--color-brand);
    font-weight: 700;
    border: 0;
+   font-family: inherit;
 }
 
 .primery-button:hover {
@@ -219,6 +220,8 @@ body {
 .secondary-button {
     color: var(--color-accent);
     background-color: var(--color-secondary-section);
+    font-weight: 500;
+    font-family: inherit;
 }
 
 .secondary-button:hover {
@@ -235,6 +238,7 @@ body {
     color: var(--color-background);
     background-color: var(--color-brand);
     font-weight: 500;
+    font-family: inherit;
 }
 
 .secondary-button-first:hover {
