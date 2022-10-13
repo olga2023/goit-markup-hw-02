@@ -21,33 +21,40 @@ body {
 
 .logo-text {
     color: var(--color-brand);
-    line-height: 1.15;
+    line-height: 1.2;
+    font-size: 26px;
     font-weight: 700;
+    letter-spacing: 0.03em;
 }
 
 .logo-second {
     color: #000000;
-    line-height: 1.15;
+    line-height: 1.2;
+    font-size: 26px;
     font-weight: 700;
+    letter-spacing: 0.03em;
 }
 
 .logo-second-footer {
     color: var(--color-background);
-    line-height: 1.15;
+    line-height: 1.2;
+    font-size: 26px;
     font-weight: 700;
+    letter-spacing: 0.03em;
 }
 
  /*secton link*/
 
 .link-logo {
     text-decoration: none;
-    line-height: 1.38;
+    line-height: 1.2;
     font-family: Raleway;
+    letter-spacing: 0.03em;
     font-weight: 700;
 }
 
 .link-nav {
-    color: var(--color-accent)
+    color: var(--color-accent);
     text-decoration: none;
     line-height: 1.14;
     font-weight: 500;
@@ -67,10 +74,6 @@ body {
 .link-nav:focus {
     color: var(--color-active);
     font-weight: 500;
-}
-
-.link-logo:hover {
-    text-decoration: underline;
 }
 
 .link-contakt {
@@ -128,10 +131,6 @@ body {
     background: var(--color-section);
 }
 
-.secondary-group {
-    background-color: var(--color-secondary-section)
-}
-
 .section-third {
     background-color: #F5F4FA;
 }
@@ -146,12 +145,14 @@ body {
     color: #fff;
     text-transform: uppercase;
     line-height: 1.36;
+    font-size: 44px;
     font-weight: 900;
     letter-spacing: 0.06em;
 }
 
 .section-sabtitle {
     color: var(--color-accent);
+    text-transform: uppercase;
     line-height: 1.14;
     font-weight: 700;
     letter-spacing: 0.03em;
@@ -166,6 +167,7 @@ body {
 .title-text {
     color: var(--color-accent);
     line-height: 2;
+    font-size: 18px;
     font-weight: 700;
     letter-spacing: 0.06em;
 }
@@ -173,6 +175,7 @@ body {
 .section-caption {
     color: var(--color-accent);
     line-height: 1.17;
+    font-size: 36px;
     font-weight: 700;
     letter-spacing: 0.03em;
 }
@@ -180,6 +183,7 @@ body {
 .section-subject {
     color: var(--color-accent);
     line-height: 1.17;
+    font-size: 16px;
     font-weight: 500;
     letter-spacing: 0.03em;
 }
@@ -187,12 +191,14 @@ body {
 .text-desc {
     line-height: 1.17;
     font-weight: 400;
+    font-size: 16px;
     letter-spacing: 0.03em;
 }
 
 .title-description {
     line-height: 1.88;
     font-weight: 400;
+    font-size: 16px;
     letter-spacing: 0.03em;
 }
 
@@ -202,6 +208,8 @@ body {
    color: var(--color-background);
    background-color: var(--color-brand);
    font-weight: 700;
+   letter-spacing: 0.06em;
+   font-size: 16px;
    border: 0;
    font-family: inherit;
 }
@@ -220,7 +228,9 @@ body {
 .secondary-button {
     color: var(--color-accent);
     background-color: var(--color-secondary-section);
+    font-size: 16px;
     font-weight: 500;
+    letter-spacing: 0.03em;
     font-family: inherit;
 }
 
@@ -237,6 +247,8 @@ body {
 .secondary-button-first {
     color: var(--color-background);
     background-color: var(--color-brand);
+    font-size: 16px;
+    letter-spacing: 0.03em;
     font-weight: 500;
     font-family: inherit;
 }
